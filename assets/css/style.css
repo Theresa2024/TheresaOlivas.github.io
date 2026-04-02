@@ -1,5 +1,5 @@
 body {
-  background-color: #1e1e2f; /* un azul oscuro personalizado */
+  background-color: #1e1e2f !important; /* un azul oscuro personalizado */
   color: #f5f5f5; /* texto claro */
   font-family: "Segoe UI", sans-serif;
 }
