@@ -1,8 +1,11 @@
 /* Contenedor principal: sidebar + contenido */
-.container {
-  display: flex;
-  min-height: 100vh; /* ocupa toda la altura de la pantalla */
+html, body {
+  height: 100%;
+  margin: 0;       /* elimina márgenes por defecto */
+  padding: 0;      /* elimina relleno por defecto */
+  background-color: #1e1e2f; /* asegura que el fondo cubra todo */
 }
+
 
 /* Sidebar a la izquierda */
 .sidebar {
