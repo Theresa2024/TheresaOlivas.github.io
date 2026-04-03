@@ -3,32 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} - {{ site.title }}</title>
-  
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
 </head>
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <h2>{{ site.title }}</h2>
-      <nav>
-        <a href="{{ '/' | relative_url }}">Inicio</a>
-        <a href="{{ '/about' | relative_url }}">Sobre mí</a>
-        <a href="{{ '/projects' | relative_url }}">Portafolio</a>
-        <a href="{{ '/education' | relative_url }}">Educación</a>
-        <a href="{{ '/skills' | relative_url }}">Skills</a>
-        <a href="{{ '/contact' | relative_url }}">Contacto</a>
-      </nav>
-    </aside>
-    <main class="content">
-      {{ content }}
-      <a href="/assets/cv.pdf" class="btn">Descarga mi CV</a>
-    </main>
-  </div>
-  <footer>
-    <p>&copy; {{ site.title }} - {{ site.description }}</p>
-  </footer>
-</body>
 
+<div class="container">
+
+  <aside class="sidebar">
+    <h2>Theresa Olivas</h2>
+
+    <nav>
+      <a href="{{ '/' | relative_url }}">Inicio</a>
+      <a href="{{ '/projects' | relative_url }}">Proyectos</a>
+      <a href="{{ '/about' | relative_url }}">Sobre mí</a>
+      <a href="{{ '/skills' | relative_url }}">Skills</a>
+      <a href="{{ '/education' | relative_url }}">Educación</a>
+      <a href="{{ '/contact' | relative_url }}">Contacto</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+</div>
+
+<footer>
+  <p>&copy; {{ site.title }} - {{ site.description }}</p>
+</footer>
+
+</body>
 </html>
 
